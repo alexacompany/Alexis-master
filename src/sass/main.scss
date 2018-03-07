@@ -1,0 +1,23 @@
+/*---BASE---*/
+@import './base/_variables.scss';
+@import './base/_base';
+
+/*---LAUOUTS---*/
+@import './layouts/_header.scss';
+@import './layouts/_footer.scss';
+
+/*-----MODULES-----*/
+@import './modules/_firstSection.scss';
+@import './modules/_aboutUsSection.scss';
+@import './modules/_fokusSection.scss';
+@import './modules/_videoSection.scss';
+@import './modules/_portfolioSection.scss';
+@import './modules/_teamSection.scss';
+@import './modules/_indicatorSection.scss';
+@import './modules/_workStepsSection.scss';
+@import './modules/_pricingSection.scss';
+@import './modules/_sliderSection.scss';
+@import './modules/_selectSection.scss';
+@import './modules/_blogSection.scss';
+@import './modules/_newsletterSection.scss';
+@import './modules/_formSection.scss';

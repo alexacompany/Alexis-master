@@ -1,0 +1,20 @@
+.blogSection {
+  background-color: #f7f7f7;
+  padding: 0 15px 120px 15px;
+}
+.rowItems {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .rowItems {
+  justify-content: space-around;
+}
+}
+@media screen and (max-width: 1024px) {
+.blogSection {
+  padding: 0 15px 75px 15px;
+}
+}

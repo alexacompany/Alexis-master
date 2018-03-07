@@ -1,0 +1,197 @@
+.workStepsSection {
+  background-color: $white;
+  padding: 0 15px 150px;
+    .contentRow {
+      padding-top: 60px;
+      .blockContainer {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        &__left {
+          display: flex;
+          max-width: 450px;
+          padding: 40px 30px 55px 40px;
+          background-color: $white;
+          box-shadow: -4px -4px 25px $gray;
+          position: absolute;
+          z-index: 2;
+          top: -50px;
+          left: 0;
+          &__digits {
+            padding-right: 30px;
+            position: relative;
+            .digit {
+              font-family: 'LibreBaskerville-Bold';
+              font-size: 50px;
+              color: $digits;
+            }
+            .line {
+              height: 1px;
+              width: 100px;
+              background-color: $digits;
+              transform: rotate(-45deg);
+              position: absolute;
+              top: 35px;
+              right: -15px;
+            }
+          }
+          &__textBox {
+            padding-top: 30px;
+            .title {
+              margin-bottom: 20px;
+              font-size: 25px;
+              font-weight: 400px;
+            }
+            .text {
+              font-size: 15px;
+              font-weight: 400px;
+              line-height: 1.5em;
+              color: $TxtGray;
+            }
+          }
+        }
+        &__right {
+          display: flex;
+          max-width: 450px;
+          padding: 40px 35px 55px 40px;
+          background-color: $white;
+          box-shadow: 4px -4px 25px -4px $gray;
+          position: absolute;
+          z-index: 2;
+          top: -50px;
+          right: 0;
+        }
+        &__red {
+            border-bottom: 3px solid $red;
+        }
+        &__green {
+            border-bottom: 3px solid $green;
+        }
+        &__purple {
+            border-bottom: 3px solid $purpure;
+        }
+        &__yellow {
+            border-bottom: 3px solid $yellow;
+        }
+        &__center {
+          max-width: 550px;
+          width: 100%;
+          &-red {
+            background: url('../img/bgWork1.png') no-repeat center center;
+            background-size: cover;
+            min-height: 300px;
+          }
+          &-green {
+            background: url('../img/bgWork2.png') no-repeat center center;
+            background-size: cover;
+            min-height: 300px;
+          }
+          &-purple {
+            background: url('../img/bgWork3.png') no-repeat center center;
+            background-size: cover;
+            min-height: 300px;
+          }
+          &-yellow {
+            background: url('../img/bgWork4.png') no-repeat center center;
+            background-size: cover;
+            min-height: 300px;
+          }
+        }
+      }
+    }
+}
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+.workStepsSection {
+  padding: 0 15px 75px 15px;
+  .contentRow {
+    .blockContainer {
+      &__left {
+        padding: 25px;
+        &__digits {
+          padding-right: 25px;
+          .digit {
+            font-size: 40px;
+          }
+        }
+        &__textBox {
+          .title {
+            font-size: 24px;
+          }
+          .text {
+            margin: 0;
+          }
+        }
+      }
+      &__right {
+        padding: 20px 20px 25px 20px;
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 768px) {
+.workStepsSection {
+  padding: 0 15px 50px 15px;
+  .contentRow {
+    .blockContainer {
+      &__left {
+        padding: 20px 25px 20px 25px;
+        &__digits {
+          padding-right: 25px;
+          .digit {
+            font-size: 40px;
+          }
+        }
+        &__textBox {
+          .title {
+            font-size: 24px;
+          }
+          .text {
+            margin: 0;
+          }
+        }
+      }
+      &__right {
+        padding: 20px 20px 25px 20px;
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 480px) {
+.workStepsSection {
+  padding: 0 15px 25px 15px;
+  .contentRow {
+      .blockContainer {
+        &__left {
+          padding: 15px;
+          &__digits {
+            padding-right: 0;
+            .digit {
+              font-size: 35px;
+            }
+            .line {
+              width: 70px;
+              top: 28px;
+              right: -27px;
+            }
+          }
+          &__textBox {
+            padding-top: 15px;
+            .title {
+              font-size: 20px;
+            }
+            .text {
+              font-size: 14px;
+              margin: 0;
+          }
+        }
+      }
+      &__right {
+          padding: 15px;
+        }
+    }
+}
+}
+}

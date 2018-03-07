@@ -1,0 +1,29 @@
+.containerRow {
+  background-color: $bgSlider;
+  padding: 0 15px 120px 15px;
+  .slideSection {
+    position: relative; 
+  }
+}
+.bgc {
+  text-align: center;
+  box-shadow: none;
+  background-color: transparent;
+  margin: 0 auto;
+}
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+.containerRow {
+  padding: 0 15px 75px 15px;
+}
+}
+@media screen and (max-width: 768px) {
+.containerRow {
+  padding: 0 15px 50px 15px;
+}
+}
+@media screen and (max-width: 480px) {
+.containerRow {
+  padding: 0 15px 25px 15px;
+}
+}

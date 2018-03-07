@@ -1,0 +1,82 @@
+.burger-menu {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+}
+.burger {
+  position: absolute;
+  background-color: $colorNav;
+  width: 100%;
+  height: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  border-radius: 3px;
+
+}
+.burger::before {
+  position: absolute;
+  background-color: $colorNav;
+  width: 30px;
+  height: 4px;
+  top: 9px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  content: "";
+  display: none;
+}
+.burger::after {
+  position: absolute;
+  background-color: $colorNav;
+  width: 30px;
+  height: 4px;
+  bottom: 8px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  content: "";
+  display: none;
+}
+.burger::after, .burger::before, .burger {
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+}
+.burger-menu.menu-on .burger::after{
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+   transform: rotate(-45deg);
+   -webkit-transform: rotate(-45deg);
+  bottom: 0px;
+  background-color: $colorNav;
+}
+.burger-menu.menu-on .burger::before{
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+  top: 0px;
+  background-color: $red;
+}
+.burger-menu.menu-on .burger{
+ background: white;
+}
+/* Media Queries */
+@media screen and (max-width: 768px) {
+.burger {
+  opacity: 1;
+}
+.burger::before {
+  display: block;
+}
+.burger::after {
+  display: block;
+}
+}
+@media screen and (max-width: 320px) {
+.burger-menu {
+  margin: 0 0 0 160px;
+}
+}

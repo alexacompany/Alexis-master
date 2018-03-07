@@ -1,0 +1,21 @@
+.fokusSection {
+  background-color: #f7f7f7;
+  padding: 0 15px 130px 15px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+.fokusSection {
+  padding: 0 15px 75px 15px;
+}
+}
+@media screen and (max-width: 768px) {
+.fokusSection {
+  padding: 0 15px 15px 15px;
+}
+}
+@media screen and (max-width: 480px) {
+.fokusSection {
+  padding: 0 15px;
+}
+}

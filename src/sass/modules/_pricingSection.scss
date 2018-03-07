@@ -1,0 +1,266 @@
+.pricingSection {
+  background-color: $graylight;
+  padding: 0 15px 120px;
+    .containerItem {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .itemBox {
+          max-width: 340px;
+          width: 100%;
+          margin-bottom: 30px;
+          padding: 35px 0;
+          border-top: 3px solid $green;
+          background-color: $white;
+          position: relative;
+        &__red {
+          border-color: $red;
+        }
+        &__purple {
+          border-color: $purpure;
+        }
+          &:hover .borderItem .itemPrice {
+            background-color: $green;
+            color: $white;
+            transition: 0.4s ease-In;
+          }
+          &:hover .borderItem .itemPrice-bgcRed {
+            background-color: $red;
+          }
+          &:hover .borderItem .itemPrice-bgcPurple {
+            background-color: $purpure;
+          }
+          &:hover .borderItem .itemPrice__pMonth {
+            color: $white;
+            transition: .5s ease-In;
+          }
+          &:hover .itemButton .button {
+            background-color: $green;
+            color: $white;
+            transition: .5s ease-in;
+          }
+          &:hover .itemButton .button-btnRed {
+            background-color: $red;
+          }
+          &:hover .itemButton .button-btnPurple {
+            background-color: $purpure;
+           
+          }
+          .item_title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            .text_title {
+              font-weight: 500;
+              font-size: 20px;
+            }
+          }
+          .borderItem {
+            margin: 0 auto 30px auto;
+            border: 3px solid $green;
+            background-color: $white;
+            border-radius: 50%;
+            width: 112px;
+            height: 112px;
+            position: relative;
+          &-red {
+            border-color: $red;
+          }
+          &-purple {
+            border-color: $purpure;
+          }
+            .itemPrice {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              height: 101px;
+              width: 101px;
+              text-align: center;
+              transition: .7s ease;
+              border-radius: 50%;
+              position: absolute;
+              top: .5px;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              margin: auto;
+              &__text {
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 1.4em;
+                transition: .3s ease-Out;
+              }
+              &__pMonth {
+                font-size: 13px;
+                color: $green;
+                transition: .3s ease-Out;
+              &-txtRed {
+                color: $red;
+              }
+              &-txtPurple {
+                color: $purpure;
+              }
+              }
+            }
+          }
+          .item_text {
+            padding-bottom: 110px;
+            text-align: center;
+            .text {
+              font-size: 15px;
+              color: $TxtGray;
+              line-height: 1em;
+              margin-bottom: 25px;
+              & span {
+                color: $colorNavLight;
+                font-weight: 500;
+                margin-right: 5px;
+              }
+            }
+          }       
+          .itemButton {
+            padding: 45px 0 40px;
+            width: 180px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            .button {
+              width: 100%;
+              margin: 0;
+              padding: 15px 30px;
+              background-color: transparent;
+              font-size: 16px;
+              cursor: pointer;
+              text-transform: uppercase;
+              line-height: 1em;
+              color: $green;
+              font-weight: 700;
+              outline: none;
+              border: 1px solid $green;
+              border-radius: 27px;
+              transition: all 0.5s ease;
+              transition: .3s ease-Out;
+              &-btnRed {
+              color: $red;
+              border-color: $red;
+            }
+            &-btnPurple {
+              color: $purpure;
+              border-color: $purpure;
+            }
+          }
+
+        }
+      }
+    }
+}
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+.pricingSection {
+  padding: 0 15px 75px 15px;
+}
+}
+@media screen and (max-width: 768px) {
+.pricingSection {
+  padding: 0 15px 50px 15px;
+}
+}
+@media screen and (max-width: 480px) {
+.pricingSection {
+  padding: 15px;
+  .containerItem {
+    .itemBox {
+      max-width: 300px;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 25px 0;
+      .item_title {
+        margin-bottom: 20px;
+        .text_title {
+          font-size: 18px;
+        }
+      }
+      .borderItem {
+        margin: 0 auto 20px auto;
+        width: 102px;
+        height: 102px;
+        .itemPrice {
+          height: 91px;
+          width: 91px;
+          top: 0;
+          &__text {
+            font-size: 18px;
+          }
+        }
+      }
+      .item_text {
+        padding-bottom: 65px;
+        .text {
+          font-size: 15px;
+          margin-bottom: 15px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }       
+      .itemButton {
+        padding: 20px 0 20px;
+        .button {
+          width: 100%;
+          margin: 0;
+          padding: 10px 15px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 320px) {
+.pricingSection {
+  .containerItem {
+    .itemBox {
+      max-width: 260px;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 20px 0;
+      .item_title {
+        margin-bottom: 15px;
+        .text_title {
+          font-size: 17px;
+        }
+      }
+      .borderItem {
+        margin: 0 auto 15px auto;
+        width: 90px;
+        height: 90px;
+        .itemPrice {
+          height: 80px;
+          width: 80px;
+          &__text {
+            font-size: 16px;
+          }
+          &__pMonth {
+            font-size: 12px;
+          }
+        }
+      }
+      .item_text {
+        .text {
+          font-size: 13px;
+        }
+      }       
+      .itemButton {
+        padding: 15px;
+        .button {
+          padding: 10px 10px;
+        }
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,646 @@
+//Button red
+.customBtn {
+  font-size: 16px;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 25px;
+  color: $white;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  &.red {
+    background-color: $red;
+  }
+  &.email {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  &.form {
+    margin: 0 105px;
+  }
+}
+@media screen and (max-width: 480px) {
+.customBtn {
+  font-size: 13px;
+  &.email {
+    border-radius: 25px;
+  }
+  &.form {
+    margin: 0 50px;
+  }
+}
+}
+//wrapper
+.wrapper {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+//____________________________________________
+//sicialIcon
+.social {
+  border-left: 1px solid #efefef;
+  &-inline {
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+.textIcon {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2em;
+  color: $TxtGray;
+  &-slide {
+    font-size: 36px;
+    margin: 40px 40px 0 0;
+    }
+  &-footer {
+    font-size: 30px;
+    font-weight: 400;
+    color: $white;
+    line-height: 1;
+    margin: 0 15px 0;
+  }
+  }
+}
+/* Media Queries */
+@media screen and (max-width: 480px) {
+.social-inline {
+  .textIcon {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+    color: $TxtGray;
+  &-slide {
+    font-size: 24px;
+    font-weight: 400;
+    color: $white;
+    line-height: 1;
+    margin: 10px;
+    }
+  &-footer {
+    font-size: 24px;
+    font-weight: 400;
+    color: $white;
+    line-height: 1;
+    margin: 10px;
+  }
+  }
+}
+}
+//____________________________________________
+
+//title with big digits
+.article {
+  max-width: 650px;
+  background-color: $white;
+  position: relative;
+  margin-left: -70px;
+  box-shadow: 3px -3px 20px rgba(204, 204, 204, .3);
+  &__digits {
+    font-size: 290px;
+    color: #f6f6f6;
+    font-weight: 700;
+    line-height: .8em;
+    position: absolute;
+    z-index: 1;
+    &-add {
+      margin: 0;
+      color: #f0f0f0;
+      position: static;
+    }
+    &-form {
+      margin: 0;
+      position: static;
+      color: #d2d2d2;
+    }
+    &-colorDigits {
+      margin: 0;
+      color: $digitsSleder;
+      position: static;
+    } 
+  }
+  &__titleText {
+    font-family: 'LibreBaskerville-Bold';
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorNav;
+    margin: 100px 0 50px 95px;
+    z-index: 2;
+    position: relative;
+    &-text {
+    margin: -70px 0 40px 0;
+    position: static;
+    }
+    &-colorText {
+      margin: -70px 0 40px 0;
+      color: $white;
+      position: static;
+    }
+  }
+  &__text {
+    z-index: 2;
+    position: relative;
+    margin: 0 0 100px 95px;
+    &-position {
+      margin: 0 0 70px 0;
+      position: static;
+    }
+    &-colorText {
+      margin: 0 0 70px 0;
+      color: $white;
+      position: static;
+    }
+    p {
+      max-width: 75%;
+      line-height: 1.5em;
+      font-size: 15px;
+      font-weight: 400;
+      color: $colorNav;
+      &:first-child {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+//title with big digits -- components
+.bgc {
+  text-align: center;
+  box-shadow: none;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1165px) {
+.article {
+  margin-left: 0;
+  margin-top: -150px;
+}
+}
+@media screen and (max-width: 1024px) {
+.article {
+  &__digits {
+    font-size: 200px;
+  }
+  &__titleText {
+    font-size: 40px;
+    margin: 50px 0 40px 60px;
+    &-text {
+      margin: -50px 20px 20px 0;
+    }
+    &-colorText {
+      margin: -50px 0 40px 0;
+    }
+  }
+  &__text {
+    margin: 0 0 40px 60px;
+    &-position {
+      margin: 0 0 40px 0;
+      font-size: 14px;
+      line-height: 1.5em;
+    }
+    &-colorText {
+      margin: 0 0 40px 0;
+      font-size: 14px;
+      line-height: 1.5em;
+    }
+    p {
+      max-width: 85%;
+      font-size: 14px;
+
+      &:first-child {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 640px) {
+.article {
+  &__digits {
+    font-size: 150px;
+  }
+  &__titleText {
+    font-size: 30px;
+    margin: 40px 0 30px 40px;
+    &-text {
+      margin: -40px 20px 20px 0;
+    }
+    &-colorText {
+      margin: -40px 0 20px 0;
+    }
+  }
+  &__text {
+    margin: 0 0 20px 40px;
+    &-position {
+      margin: 0 0 20px 0;
+      font-size: 13px;
+    }
+    &-colorText {
+      margin: 0 0 20px 0;
+      font-size: 13px;
+    }
+    p {
+      max-width: 85%;
+      font-size: 13px;
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 480px) {
+.article {
+  &__digits {
+    font-size: 130px;
+  }
+  &__titleText {
+    font-size: 28px;
+    margin: 40px 0 20px 40px;
+    &-text {
+      margin: -30px 20px 20px 0;
+    }
+    &-colorText {
+      margin: -30px 0 20px 0;
+    }
+  }
+  &__text {
+    margin: 0 0 20px 40px;
+    &-position {
+      margin: 0 0 20px 0;
+      font-size: 12px;
+    }
+    &-colorText {
+      margin: 0 0 20px 0;
+      font-size: 12px;
+    }
+    p {
+      max-width: 85%;
+      font-size: 13px;
+      &:first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+}
+
+
+//items block for (fokusSection, teamSection, selectSection, blogSection)
+.items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  &-select {
+    margin-bottom: 70px;
+  }
+  &-blog {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 555px;
+  }
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 260px;
+  text-align: center;
+  background-color: $white;
+  padding: 60px 0;
+  margin: 0 0 30px 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+&-select {
+  flex-direction: row;
+  background-color: transparent;
+  flex-wrap: wrap;
+  max-width: 315px;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 70px 0;
+}
+&-blog {
+  max-width: 555px;
+  padding: 0;
+  margin-bottom: 20px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+&-red {
+  border-bottom: 3px solid $red;
+  @keyframes shadowRed {
+    from {
+      box-shadow: none;
+    }
+    to {
+      box-shadow: 0px -5px 14px 0px $redShadow;
+    }
+  }
+  &:hover {
+    animation: shadowRed 1.2s;
+    box-shadow: 0px -5px 14px 0px $redShadow;
+  }
+}
+&-change {
+  padding: 5px 5px 0;
+}
+&-green {
+  border-bottom: 3px solid $green;
+  @keyframes shadowGreen {
+    from {
+      box-shadow: none;
+    }
+    to {
+      box-shadow: 0px -5px 14px 0px $greenShadow;
+    }
+  }
+  &:hover {
+    animation: shadowGreen 1.2s;
+    box-shadow: 0px -5px 14px 0px $greenShadow;
+  }
+}
+&-purpure {
+  border-bottom: 3px solid $purpure;
+  @keyframes shadowPurple {
+    from {
+      box-shadow: none;
+    }
+    to {
+      box-shadow: 0px -5px 14px 0px $purpShadow;
+    }
+  }
+  &:hover {
+    animation: shadowPurple 1.2s;
+    box-shadow: 0px -5px 14px 0px $purpShadow;
+  }
+}
+&-yellow {
+  border-bottom: 3px solid $yellow;
+  @keyframes shadowYellow {
+    from {
+      box-shadow: none;
+    }
+    to {
+      box-shadow: 0px -5px 14px 0px $yellowShadow;
+    }
+  }
+  &:hover {
+    animation: shadowYellow 1.2s;
+    box-shadow: 0px -5px 14px 0px $yellowShadow;
+  }
+}
+  &__img {
+    margin-bottom: 35px;
+    &-bot {
+      margin-bottom: 20px;
+    }
+    &-select {
+      margin: 0 20px 35px 0;
+    }
+    &-blog {
+      position: relative;
+      margin-bottom: 25px;
+    }
+  }
+  &__title {
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    & span {
+      color: $gray;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: none;
+      margin-left: 20px;
+      }
+    &-select {
+      width: 50%;
+    }
+    &-blogGreen {
+      padding-left: 40px;
+      margin: 30px 0 20px;
+      color: $green;
+      font-size: 15px;
+      text-transform: uppercase;
+      & span {
+        color: $TxtGray;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: none;
+        margin-left: 20px;
+      }
+    }
+    &-blogPurple {
+      padding-left: 40px;
+      margin: 30px 0 20px;
+      color: $purpure;
+      font-size: 15px;
+      text-transform: uppercase;
+      & span {
+        color: $TxtGray;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: none;
+        margin-left: 20px;
+      }
+    }
+    &-blogYellow {
+      padding-left: 40px;
+      margin: 30px 0 20px;
+      color: $yellow;
+      font-size: 15px;
+      text-transform: uppercase;
+      & span {
+        color: $TxtGray;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: none;
+        margin-left: 20px;
+      }
+    }
+    &-blog {
+      color: $red;
+      margin-bottom: 0;
+      font-size: 18px;
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      text-transform: uppercase;
+    }
+    &-article {
+      padding: 0 40px;
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.4em;
+    }
+    &-red {
+      color: $red;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    &-green {
+      color: $green;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    &-purpure {
+      color: $purpure;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    &-yellow {
+      color: $yellow;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+  }
+  &__text {
+    font-size: 15px;
+    color: $TxtGray;
+    line-height: 1.5em;
+    padding: 0 25px;
+    &-inner {
+      margin-bottom: 20px;
+      font-size: 13px;
+    }
+    &-select {
+      padding: 0;
+    }
+    &-article {
+      padding: 0 40px;
+      margin-bottom: 30px;
+      & .link {
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 8px;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          color: $colorNav;
+        }
+      }
+      & .red {
+        color: $red;
+      }
+      & .green {
+        color: $green;
+      }
+      & .purple {
+        color: $purpure;
+      }
+      & .yellow {
+        color: $yellow;
+      }
+    }
+  }
+}
+/* Media Queries */
+@media screen and (max-width: 480px) {
+.item {
+  padding: 40px 0;
+  margin: 0 0 20px 0;
+  max-width: 230px;
+&-select {
+  max-width: 315px;
+  padding: 0;
+  margin: 0 0 25px 0;
+}
+&-blog {
+  max-width: 555px;
+  padding: 0;
+}
+&-change {
+  padding: 5px 5px 0;
+}
+  &__img {
+    margin-bottom: 25px;
+    &-bot {
+      margin-bottom: 20px;
+    }
+    &-select {
+      margin: 0 20px 15px 0;
+    }
+    &-blog {
+      position: relative;
+      margin-bottom: 25px;
+    }
+  }
+  &__title {
+    margin-bottom: 25px;
+    font-size: 18px;
+    & span {
+      color: $gray;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: none;
+      margin-left: 20px;
+      }
+    &-select {
+      width: 45%;
+    }
+    &-blog {
+      margin-bottom: 0;
+      font-size: 15px;
+    }
+    &-blogGreen {
+      margin: 30px 0 20px;
+      font-size: 15px;
+      & span {
+        color: $TxtGray;
+      }
+    }
+    &-blogPurple {
+      margin: 30px 0 20px;
+      font-size: 15px;
+      & span {
+        color: $TxtGray;
+      }
+    }
+    &-blogYellow {
+      margin: 30px 0 20px;
+      font-size: 15px;
+      & span {
+        color: $TxtGray;
+      }
+    }
+    &-article {
+      font-size: 16px;
+    }
+    &-red {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    &-green {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    &-purpure {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    &-yellow {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+  }
+  &__text {
+    font-size: 13px;
+    &-select {
+      padding: 0;
+    }
+    &-article {
+      & .link {
+        font-size: 14px;
+      }
+    }
+  }
+}
+}

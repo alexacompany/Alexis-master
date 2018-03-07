@@ -1,0 +1,45 @@
+.indicatorSection {
+  background: url('../img/bgIndicator.png') no-repeat center center;
+  background-size: cover;
+  padding: 145px 15px 125px;
+  position: relative;
+  .overley {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(41, 38, 46, .6);
+  }
+}
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+.indicatorSection {
+  padding: 75px 15px;
+}
+}
+@media screen and (max-width: 768px) {
+.indicatorSection {
+  padding: 50px 15px;
+}
+}
+@media screen and (max-width: 480px) {
+.indicatorSection {
+  padding: 25px 15px;
+  .boxes {
+    &__box {
+      margin-bottom: 15px;
+    }
+    &__text {
+      font-size: 13px;
+      &-white {
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+      &-fontSize {
+        font-size: 13px;
+      }
+    }
+  }
+}
+}
