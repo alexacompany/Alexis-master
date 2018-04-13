@@ -772,7 +772,7 @@ img {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 555px; }
+  max-width: 555px; }
 
 .firstSection .wrapper .contentHead .wrapContent .tabs .tab {
   -webkit-box-ordinal-group: 100;

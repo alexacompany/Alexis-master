@@ -22980,57 +22980,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ТЗ-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ТЗ-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ТЗ-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ТЗ-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ТЗ-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ТЗ-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banu-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -23085,12 +23047,12 @@
       <workItem from="1521227427571" duration="401000" />
       <workItem from="1521229745709" duration="1794000" />
       <workItem from="1521753369604" duration="1138000" />
-      <workItem from="1523632284406" duration="237000" />
+      <workItem from="1523632284406" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79281000" />
+    <option name="totallyTimeSpent" value="79863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />

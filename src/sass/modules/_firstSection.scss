@@ -36,7 +36,7 @@
           display: flex;
           flex-wrap: wrap;
           margin: 0 auto;
-          width: 555px;
+          max-width: 555px;
           .tab {
             order: 99;
             flex-grow: 1;
