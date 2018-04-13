@@ -209,7 +209,7 @@ img {
   background: red;
   border: 1px solid red; }
 
-.headSection .wrapper .header .wrapHead__nav .wrap .catalog:hover .popUpIcon .line {
+.headSection .wrapper .header .wrapHead__nav .wrap .catalog:hover .popUpIcon .wrapLine .line {
   background: white; }
 
 .headSection .wrapper .header .wrapHead__nav .wrap .catalog .popUpIcon {
@@ -218,11 +218,13 @@ img {
   margin-right: 10px;
   border-radius: 25px;
   border: 1px solid #414141;
-  padding: 18px 0;
   -webkit-transition: .5s;
   transition: .5s; }
 
-.headSection .wrapper .header .wrapHead__nav .wrap .catalog .popUpIcon .line {
+.headSection .wrapper .header .wrapHead__nav .wrap .catalog .popUpIcon .wrapLine {
+  margin-top: 18px; }
+
+.headSection .wrapper .header .wrapHead__nav .wrap .catalog .popUpIcon .wrapLine .line {
   margin: auto;
   width: 16px;
   height: 1px;
