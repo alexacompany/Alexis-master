@@ -2,7 +2,7 @@
   padding: 15px 15px 0;
   background: url("../img/bg.png") no-repeat center center;
   background-size: cover;
-  min-height: 740px;
+  min-height: 770px;
   .wrapper {
     max-width: 1170px;
     margin: 0 auto;
@@ -89,6 +89,22 @@
               color: white;
               background-color: red;
               text-transform: uppercase;
+            }
+            .playVideo {
+              width: 360px;
+              display: flex;
+              margin: auto;
+              .wrapPlay {
+                display: flex;
+                margin: auto;
+                .playBtn {
+                  color: white;
+                  font-size: 16px;
+                  cursor: pointer;
+                  background-color: transparent;
+                  border: none;
+                }
+              }
             }
           }
         }
