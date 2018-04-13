@@ -1,59 +1,102 @@
 .footerSection {
-  padding: 0 15px 125px 15px;
-  background-color: $gray;
+	padding: 0 15px;
+	background: url("../img/footer_image.png") no-repeat center;
+	background-size: cover;
   .footerRow {
-	display: flex;
-	justify-content: center;
-	
-	.footerItem {
-	  width: 25%;
-	  background-color: $colorNav;
-	  padding: 40px 15px;
-	  display: flex;
-	  flex-direction: column;
+		display: flex;
 	  align-items: center;
-	  justify-content: center;
-	&.red {
-  	  border-bottom: 3px solid $red;
-  	}
-  	&.green {
-  	  border-bottom: 3px solid $green;
-  	}
-  	&.purple {
-  	  border-bottom: 3px solid $purpure;
-  	}
-  	&.yellow {
-  	  border-bottom: 3px solid $yellow;
-  	}
-	  &__img {
-	    //max-width: 100%;
-	    //margin: 0 auto;
-	  }
-	  &__titleColor {
-	  	line-height: 1.4em;
-	  	font-size: 18px;
-	  	font-weight: 500;
-	  	margin-bottom: 35px;
-
-	  	&.green {
-	  		color: $green;
-	  	}
-	  	&.purple {
-	  		color: $purpure;
-	  	}
-	  	&.yellow {
-	  		color: $yellow;
-	  		margin-left: 15px;
-	  	}
-	  }
-	  &__textColor {
-	  	font-size: 16px;
-	  	font-weight: 400;
-	  	line-height: 1.4em;
-	  	color: $white;
-	  }
-	}
+	  justify-content: space-between;
+		.itemFooter {
+	  	max-width: 330px;
+			padding: 15px;
+			display: flex;
+			&:last-child {
+				justify-content: flex-end;
+			}
+			.logoTitle {
+				text-align: right;
+				font-size: 20px;
+				line-height: 23px;
+        color: $accentBlue;
+      }
+      .logo {
+				margin-left: 5px;
+				text-align: center;
+				font-size: 54px;
+				line-height: 52px;
+				color: $accentBlue;
+				text-shadow: 1px -1px 2px $white, 1px -1px 2px $accentBlue;
+			}
+			.wrapText {
+				text-align: center;
+        font-size: 22px;
+				color: $accentBlue;
+				margin: auto;
+				.textAdress {
+					text-shadow: 0 0 4px $white, 0 0 7px $white;
+					margin-bottom: 7px;
+				}
+			}
+			.titlePhone {
+				text-align: right;
+				margin: auto 20px auto 0;
+				.title {
+					margin-bottom: 5px;
+					font-size: 20px;
+					color: $accentBlue;
+					text-shadow: 0 0 3px $white;
+				}
+			}
+			.wrapPhone {
+				display: flex;
+				flex-direction: column;
+				.phone {
+					margin-bottom: 5px;
+					font-size: 20px;
+					color: $accentBlue;
+					text-shadow: 0 0 3px $white;
+				}
+			}
+		}
   }
+}
+.btnUp {
+	position: fixed;
+	bottom: 200px;right: 15px;
+	width: 30px;
+	height: 30px;
+	background-color: rgba(0, 89, 179, .2);
+	text-align: center;
+	transition: 2s;
+	border-radius: 5px;
+	z-index: 100;
+	&:hover {
+		background-color: $accentBlueLight;
+	}
+	.up {
+		display: block;
+		font-size: 42px;
+		line-height: 7px;
+		outline: none;
+		text-decoration: none;
+		text-shadow: 0 0 4px $white;
+		padding-top: 25px;
+		transition: 2s;
+		animation: up 2s infinite alternate ease-in-out;
+		&:hover {
+			color: $white;
+		}
+	}
+	@keyframes up {
+		from {
+			opacity: .4;
+			color: $white;
+			text-shadow: 0 0 5px black, 2px 0 10px black, 4px 0 15px black;
+		}
+		to {
+			opacity: 1;
+		}
+	}
 }
 /* Media Queries */
 @media screen and (max-width: 1024px) {
@@ -65,28 +108,11 @@
 .footerSection {
   padding: 0;
   .footerRow {
-  	flex-wrap: wrap;
-  	.footerItem {
+		flex-wrap: wrap;
+		justify-content: space-around;
+  	.itemFooter {
   		padding: 20px 15px;
-	&.red {
-  	  width: 100%;
-  	}
-  	&.green {
-  	  width: 33.3333%;
-  	  
-  	}
-  	&.purple {
-  	  width: 33.3333%;
-  	}
-  	&.yellow {
-  	  width: 33.3333%;
-  	  margin-left: 0;
-  	}
-  	  &__titleColor {
-	  	font-size: 18px;
-	  	margin-bottom: 15px;
-	  }
-	}
+		}
   }
 }
 }
@@ -94,30 +120,54 @@
 .footerSection {
   padding: 0;
   .footerRow {
-  	.footerItem {
-  		padding: 15px;
-  		&.red {
-  	  width: 100%;
-  	}
-  	&.green {
-  	  width: 100%;
-  	  
-  	}
-  	&.purple {
-  	  width: 100%;
-  	}
-  	&.yellow {
-  	  width: 100%;
-  	  margin: 0;
-  	}
-  	  &__titleColor {
-	  	font-size: 15px;
-	  	margin-bottom: 10px;
-	  }
-	  &__textColor {
-	  	font-size: 13px;
-	  }
+  	.itemFooter {
+			padding: 5px 15px;
+			&:last-child {
+				justify-content: flex-end;
+			}
+			.logoTitle {
+				text-align: right;
+				color: $accentBlue;
+			}
+			.logo {
+				margin-left: 5px;
+				text-align: center;
+				font-size: 40px;
+				color: $accentBlue;
+			}
+			.wrapText {
+				text-align: center;
+				font-size: 22px;
+				color: $accentBlue;
+				margin: auto;
+				.textAdress {
+					text-shadow: 0 0 4px $white, 0 0 7px $white;
+					margin-bottom: 7px;
+				}
+			}
+			.titlePhone {
+				text-align: right;
+				margin: auto 20px auto 0;
+				.title {
+					margin-bottom: 5px;
+					font-size: 20px;
+					color: $accentBlue;
+					text-shadow: 0 0 3px $white;
+				}
+			}
+			.wrapPhone {
+				display: flex;
+				flex-direction: column;
+				.phone {
+					margin-bottom: 5px;
+					font-size: 16px;
+					color: $accentBlue;
+					text-shadow: 0 0 3px $white;
+				}
+			}
 	}
+		
+	
   }
 }
 }

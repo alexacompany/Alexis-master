@@ -1,28 +1,30 @@
-<div class="firstSection">
+<div class="firstSection" id="firstSection">
   <div class="wrapper">
-    <h1 class="firstSection__title">We design things with love and passion.</h1>
-    <div class="firstSection__wrapBtn">
-      <button class="customBtn red">Our Works</button>    
+    <div class="contentHead">
+      <div class="wrapContent">
+        <h1 class="titleContent">душевная домашняя кухня</h1>
+        <p class="textContent">от лучших поваров Вашего города</p>
+        <div class="tabs">
+            <input type="radio" name="tabs" id="tabone" checked="checked">
+            <label class="one" for="tabone">по блюду</label>
+            <div class="tab">
+              <h3 class="tabTitle">Выбирайте любимые блюда</h3>
+              <input class="searchText" type="text" placeholder="Поиск...">
+              <button class="searchSubmit" type="submit">найти</button>
+            </div>
+            
+            <input type="radio" name="tabs" id="tabtwo">
+            <label class="two" for="tabtwo">по месту</label>
+            <div class="tab">
+              <h3 class="tabTitle">Найдите повара рядом с Вами</h3>
+              <button class="searchMap"><i class="fa fa-map-marker"></i>Найти на карте</button>
+              <p class="subText">или</p>
+              <input class="searchText" type="text" placeholder="Поиск...">
+              <button class="searchSubmit" type="submit">найти</button>
+            </div>
+          </div>
+      </div>
     </div>
-    <div class="boxes">
-      <div class="boxes__box">
-        <div class="boxes__img">
-          <img class="animated zoomIn" src="img/price.png" alt="price">
-        </div>
-        <p class="boxes__text boxes__text-green">Fixed price projects</p>
-      </div>
-      <div class="boxes__box">
-        <div class="boxes__img">
-          <img class="animated zoomIn" src="img/time.png" alt="time">
-        </div>
-        <p class="boxes__text boxes__text-purpure">Fixed price projects</p>
-      </div>
-      <div class="boxes__box">
-        <div class="boxes__img">
-          <img class="animated zoomIn" src="img/guranteed.png" alt="guranteed">
-        </div>
-        <p class="boxes__text boxes__text-yellow">Fixed price projects</p>
-      </div>
-    </div>
+    
   </div>
 </div>

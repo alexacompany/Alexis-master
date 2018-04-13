@@ -1,28 +1,10 @@
 /*-----FONTS-----*/
-@font-face {
-	font-family: 'Poppins';
-	src: url('../fonts/Poppins-Regular.eot');
-	src: local('☺'), url('../fonts/Poppins-Regular.woff') format('woff'), url('../fonts/Poppins-Regular.ttf') format('truetype'), url('../fonts/Poppins-Regular.svg') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Poppins';
-	src: url('../fonts/Poppins-Medium.eot');
-	src: local('☺'), url('../fonts/Poppins-Medium.woff') format('woff'), url('../fonts/Poppins-Medium.ttf') format('truetype'), url('../fonts/Poppins-Medium.svg') format('svg');
-	font-weight: 500;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'LibreBaskerville-Bold';
-	src: url('../fonts/LibreBaskerville-Bold.ttf');
-	src: local('☺'), url('../fonts/LibreBaskerville-Bold.ttf') format('truetype');
-	font-weight: 700;
-}
-@font-face {
-	font-family: 'Sacramento';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/bpicons/Sacramento-Regular.ttf') format('truetype');
-}
 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Alice';
+	src: url('../fonts/Alice/Alice-Regular.ttf') format('truetype');
+}

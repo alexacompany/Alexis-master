@@ -32,7 +32,7 @@ const config = {
   tunnel: false,
   host: 'localhost',
   port: 9000,
-  logPrefix: "SergeyKoval"
+  logPrefix: "ZakhodaOleksii"
 };
 
 gulp.task('webserver', function () {

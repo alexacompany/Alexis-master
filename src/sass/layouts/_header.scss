@@ -1,72 +1,336 @@
-.header {
-  background-color: $white;
-  padding: 20px 15px;
-  position: relative;
+.headSection {
+  padding: 15px;
+  background: #fff;
   .wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  &__row {
-  }
-  &__nav {
-    .menu {
-      display: flex;
-      color: $colorNav;
-      a {
-      font-size: 17px;
-      color: $colorNav;
-      margin-right: 15px;
-      text-decoration: none;
+    flex-direction: column;
+    justify-content: space-around;
+    .header {
       position: relative;
-      transition: all 1s;
-      &:last-child {
-        margin-right: 0;
-      }
-      &:before {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 2px;
-        bottom: 0px;
-        right: 0;
-        left: 0;
-        margin: 0 auto;
-        opacity: 0;
-        transition: all 1s;
-      }
-      &:hover:before {
-        width: 85px;
-        background-color: $red;
-        opacity: 1;
-      }
-      &:hover {
-        color: $red;
+      .wrapHead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &__logo {
+          display: flex;
+        }
+        &__nav {
+          .wrap {
+            display: flex;
+            .catalog {
+              display: flex;
+              margin-right: 15px;
+              transition: .5s;
+              position: relative;
+              &:hover .popUpIcon {
+                background: red;
+                border: 1px solid red;
+              }
+              &:hover .popUpIcon .line {
+                background: white;
+              }
+              .popUpIcon {
+                width: 48px;
+                height: 48px;
+                margin-right: 10px;
+                border-radius: 25px;
+                border: 1px solid #414141;
+                padding: 18px 0;
+                transition: .5s;
+                .line {
+                  margin: auto;
+                  width: 16px;
+                  height: 1px;
+                  margin-bottom: 3px;
+                  background-color: #414141;
+                  transition: .5s;
+                }
+              }
+              .catalogLink {
+                font-size: 14px;
+                color: $colorNav;
+                text-transform: uppercase;
+                text-decoration: none;
+                margin: auto;
+                transition: all .5s;
+                &:hover {
+                  color: red;
+                }
+              }
+            }
+            .menu {
+              display: flex;
+              margin: auto;
+              a {
+                font-size: 14px;
+                color: #414141;
+                margin-right: 10px;
+                padding-left: 10px;
+                text-transform: uppercase;
+                text-decoration: none;
+                line-height: 14px;
+                border-left: 1px solid #afafb0;
+                transition: all .5s;
+                &:last-child {
+                  margin-right: 0;
+                }
+                &:hover {
+                  color: red;
+                }
+              }
+              select {
+                font-size: 14px;
+                cursor: pointer;
+                text-transform: uppercase;
+                border: none;
+                outline: none;
+                box-shadow: none;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                padding-left: 10px;
+                transition: all .5s;
+                &:hover {
+                  color: red;
+                }
+              }
+              select::-ms-expand {  /* для IE */ 
+                display: none;
+              }
+            }
+          }
+        }
+        &__Search {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          .searchWrap {
+            display: flex;
+            position: relative;
+            margin: 0 30px 0 60px;
+            .searchLink {
+              width: 50px;
+              height: 50px;
+              color: #414141;
+              border: 1px solid #414141;
+              border-radius: 25px;
+              text-transform: uppercase;
+              text-decoration: none;
+              text-align: center;
+              line-height: 50px;
+              cursor: pointer;
+              transition: .5s;
+              &:hover {
+                color: white;
+                background-color: red;
+                border: 1px solid red;
+              }
+              &:hover .fa {
+                color: white;
+              }
+              .fa {
+                font-size: 20px;
+                color: #414141;
+                transition: .5s;
+              }
+            }
+            .popUp {
+              width: 425px;
+              display: none;
+              background: #fff;
+              padding: 20px 0px 20px 20px;
+              border-radius: 8px;
+              position: absolute;
+              top: 75px;
+              left: 100%;
+              z-index: 2;
+              transform: translateX(-89%);
+              &:before {
+                content: "";
+                position: absolute;
+                right: 60px;
+                top: -20px;
+                width: 0;
+                height: 0;
+                border: 10px solid transparent;
+                border-bottom: 10px solid #fff;
+              }
+            }
+          }
+          .active .popUp {
+            display: inline-block;
+          }
+          .active a {
+            font-size: 14px;
+            color: $colorNav;
+            text-transform: uppercase;
+          }
+          .search .searchText {
+            outline: none;
+            margin: 0;
+            padding-left: 30px;
+            width: 365px;
+            height: 48px;
+            border: 1px solid #e6e6e6;
+            border-radius: 25px;
+          }
+          .search .searchSubmit {
+            margin-left: -40px;
+            padding: 0;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            background-color: red;
+            .fa {
+              font-size: 20px;
+              color: white;
+            }
+          }
+          .btnWrap {
+            display: flex;
+            .btnCook {
+              padding: 15px 40px;
+              margin-right: 30px;
+              font-size: 14px;
+              border-radius: 25px;
+              border: 1px solid #404040;
+              background-color: #fff;
+              text-transform: uppercase;
+              transition: .5s;
+              &:hover {
+                color: white;
+                background-color: red;
+                border: 1px solid red;
+              }
+            }
+            .btnLogin {
+              padding: 15px 40px;
+              font-size: 14px;
+              color: red;
+              border-radius: 25px;
+              border: 1px solid red;
+              text-transform: uppercase;
+              background-color: #fff;
+              transition: .5s;
+              &:hover {
+                color: white;
+                background-color: red;
+              }
+            }
+          }
+        }
       }
     }
+    .catalogContent {
+      width: 100%;
+      display: none;
+      background: #fff;
+      padding: 10px;
+      border-radius: 0 0 4px 4px;
+      background-color: #f0f0f0;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      z-index: 1;
+      .contentWrap {
+        max-width: 1170px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 40px 0;
+        .itemContent {
+          width: 225px;
+          margin: 0 5px 5px 0;
+          transition: .5s;
+          &:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px #585859;
+          }
+          &:hover .title {
+            background-color: red;
+            color: white;
+          }
+          &:hover .title .text {
+            color: white;
+          }
+          .img {
+            img {
+              width: 225px;
+              height: 225px;
+            }
+          }
+          .title {
+            background-color: #fff;
+            text-align: center;
+            transition: .5s;
+            .text {
+              padding: 20px 0;
+              font-size: 14px;
+              color: black;
+              text-transform: uppercase;
+              transition: .5s;
+            }
+          }
+        }
+      }
     }
-    
   }
 }
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
-.header {
-  padding: 15px;
-  .header__nav {
-    width: 100%;
-    margin: 0 auto;
-    .menu {
-        flex-direction: column;
-        text-align: center;
-        display: none;
-      a {
-        line-height: 2;
-        display: block;
-        text-align: center;
-        margin-right: 10px;
-        &:last-child {
-          margin-right: 10px;
+.headSection {
+  .wrapper {
+    .header {
+      padding: 15px;
+      .wrapHead {
+        position: relative;
+        &__nav {
+          width: 100%;
+          margin: 0 auto;
+          display: none;
+          .wrap {
+            flex-direction: column;
+            .catalog {
+              flex-direction: column;
+              align-items: center;
+              margin-bottom: 15px;
+              .popUpIcon {
+                display: none;
+              }
+              .catalogLink {
+                display: block;
+              }
+            }
+            .menu {
+              flex-direction: column;
+              text-align: center;
+              a {
+                margin-bottom: 15px;
+              }
+              select {
+                margin: 0 20px 15px 0;
+              }
+            }
+          }
+        }
+        &__Search {
+          margin: auto;
+          .searchWrap {
+            margin-left: 0;
+            margin-right: 10px;
+            .popUp {
+              transform: translateX(-15%);
+            }
+          }
+          .btnWrap {
+            .btnCook {
+              margin-right: 10px;
+            }
+          }
         }
       }
     }
@@ -74,28 +338,5 @@
 }
 }
 @media screen and (max-width: 640px) {
-.header {
-  padding: 15px;
-  .wrapper {
-    .header__nav {
-      width: 100%;
-      margin: 0 auto;
-      .menu {
-        font-size: 16px;
-        display: none;
-        a {
-          line-height: 2.3;
-          display: block;
-          text-align: center;
-          &:last-child {
-            margin-right: 0;
-          }
-          &:first-child {
-            margin-top: 10px;
-          }
-        }
-      }
-    }
-  }
-}
+// 
 }

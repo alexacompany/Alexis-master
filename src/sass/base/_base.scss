@@ -1,8 +1,9 @@
 
 @import './_fonts.scss';
-@import './base/_themes.scss';
-@import './base/_menu.scss';
-@import './base/_slider.scss';
+@import './_themes.scss';
+@import './_menu.scss';
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,21 +31,17 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  font-family: 'Poppins';
-  overflow-y: inherit;
-  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
   color: $colorNav;
 }
-html {
-	overflow: hidden;
-	overflow-y: scroll;
-	overflow-y: inherit;
-  	-webkit-overflow-scrolling: touch;
+main {
+	width: 100%;
+	transition: all 1s;
 }
+
 body, html {
-	
   height: 100%;
-  min-height: 100%;
+	min-height: 100%;
 }
 ol, ul {
 	list-style: none;
