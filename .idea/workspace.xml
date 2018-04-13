@@ -2,245 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3897b24-45cf-4855-b836-cd1b7202ca43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/wow.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Alexis-master.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/base/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/base/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/LibreBaskerville-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Medium.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Medium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Poppins-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Wisdom-Script.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/bpicons/Sacramento-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/bpicons/bpicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/bpicons/bpicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/bpicons/bpicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/bpicons/bpicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/bpicons/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/feather/fonts/feather.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/feather/fonts/feather.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/feather/fonts/feather.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/feather/fonts/feather.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/feather/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/feather/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/For_Wes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/aboutUs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/anna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/annaOverlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-watch-content-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-watch-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-watch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/arrow — копия.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bgIndicator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bgWork1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bgWork2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bgWork3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bgWork4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/blog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/blur.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/circleGreen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/circlePurple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/circleRed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/circleYellow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/clients.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/david.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/davidOverlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/design.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/filters_clean.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/freebies.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/giphy.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/guranteed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/imac-content-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/imac-content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/imac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ipad-content-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ipad-content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/iphone-content-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/iphone-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/jason.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/jasonOverlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/logo111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/logo1212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/logo_footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/logo_x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/macbook-content-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/macbook-content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/macbook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/michael.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/michaelOverley.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/pause.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photoItem9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/photography.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/positive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/price.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/projects.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/selectIcon1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/selectIcon2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/selectIcon3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/selectIcon4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/selectIcon5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/selectIcon6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/shareGreen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/sharePurple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/shareRed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/shareYellow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/slider-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/webDesign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/classie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/dynamics.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/video/For_Wes.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/video/For_Wes.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/LibreBaskerville-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Medium.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Medium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Poppins-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Wisdom-Script.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/bpicons/Sacramento-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/bpicons/bpicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/bpicons/bpicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/bpicons/bpicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/bpicons/bpicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/bpicons/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/For_Wes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/aboutUs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/anna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/annaOverlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/apple-watch-content-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/apple-watch-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/apple-watch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bgIndicator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bgWork1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bgWork2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bgWork3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bgWork4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/blog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/blur.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/circleGreen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/circlePurple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/circleRed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/circleYellow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/clients.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/david.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/davidOverlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/design.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/filters_clean.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/freebies.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/giphy.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/guranteed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/imac-content-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/imac-content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/imac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/ipad-content-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/ipad-content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/iphone-content-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/iphone-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/jason.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/jasonOverlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo1212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo_footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo_x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/macbook-content-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/macbook-content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/macbook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/michael.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/michaelOverley.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/pause.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photoItem9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/photography.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/positive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/price.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/projects.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/selectIcon1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/selectIcon2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/selectIcon3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/selectIcon4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/selectIcon5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/selectIcon6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shareGreen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/sharePurple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shareRed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shareYellow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/slider-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/webDesign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/classie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/dynamics.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/base/_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_aboutUsSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_blogSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_fokusSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_indicatorSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_newsletterSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_pricingSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_selectSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_sliderSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_teamSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/modules/_videoSection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/aboutUsSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/blogSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/fokusSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/indicatorSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/newsletterSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/pricingSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/selectSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/sliderSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/teamSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/videoSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/For_Wes.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/For_Wes.webm" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/.idea/js.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/.idea/modules.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/.idea/workspace.xml" afterPath="" />
@@ -23033,35 +22794,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/src/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/src/registerServiceWorker.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/yarn.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.min.css" afterPath="$PROJECT_DIR$/build/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/script.js" afterPath="$PROJECT_DIR$/build/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/script.js" afterPath="$PROJECT_DIR$/src/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/base/_base.scss" afterPath="$PROJECT_DIR$/src/sass/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/base/_fonts.scss" afterPath="$PROJECT_DIR$/src/sass/base/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/base/_menu.scss" afterPath="$PROJECT_DIR$/src/sass/base/_menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/base/_themes.scss" afterPath="$PROJECT_DIR$/src/sass/base/_themes.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/base/_variables.scss" afterPath="$PROJECT_DIR$/src/sass/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/layouts/_footer.scss" afterPath="$PROJECT_DIR$/src/sass/layouts/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/layouts/_header.scss" afterPath="$PROJECT_DIR$/src/sass/layouts/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/main.scss" afterPath="$PROJECT_DIR$/src/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modules/_firstSection.scss" afterPath="$PROJECT_DIR$/src/sass/modules/_firstSection.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modules/_formSection.scss" afterPath="$PROJECT_DIR$/src/sass/modules/_formSection.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modules/_portfolioSection.scss" afterPath="$PROJECT_DIR$/src/sass/modules/_portfolioSection.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss" afterPath="$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/firstSection.html" afterPath="$PROJECT_DIR$/src/templates/firstSection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/footer.html" afterPath="$PROJECT_DIR$/src/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/formSection.html" afterPath="$PROJECT_DIR$/src/templates/formSection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/header.html" afterPath="$PROJECT_DIR$/src/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/portfolioSection.html" afterPath="$PROJECT_DIR$/src/templates/portfolioSection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/workStepsSection.html" afterPath="$PROJECT_DIR$/src/templates/workStepsSection.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My_computer/Alexis-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../My_computer/Alexis-master/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My_computer/DZ 31.10.2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../My_computer/DZ 31.10.2017/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23075,14 +22810,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1098">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <marker date="1521756282221" expanded="true" signature="51:53" ph="//..." />
-              </folding>
+            <state relative-caret-position="485">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -23097,36 +22830,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workStepsSection.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/workStepsSection.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="portfolioSection.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/portfolioSection.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1521650858333" expanded="true" signature="5061:5097" ph="..." />
-                <marker date="1521650858333" expanded="true" signature="5061:5271" ph="..." />
-                <marker date="1521650858333" expanded="true" signature="5061:5282" ph="..." />
-                <marker date="1521650858333" expanded="true" signature="5061:5291" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_workStepsSection.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -23136,13 +22844,8 @@
         <entry file="file://$PROJECT_DIR$/src/sass/modules/_portfolioSection.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-              <folding>
-                <marker date="1521651563845" expanded="true" signature="18:197" ph="{...}" />
-                <marker date="1521651563845" expanded="true" signature="98:197" ph="{...}" />
-                <marker date="1521651563845" expanded="true" signature="113:197" ph="{...}" />
-                <marker date="1521651563845" expanded="true" signature="187:197" ph="{...}" />
-              </folding>
+              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -23207,7 +22910,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="123" />
     <option name="y" value="77" />
     <option name="width" value="1440" />
@@ -23272,6 +22975,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -23333,7 +23037,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -23347,6 +23050,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -23379,25 +23085,26 @@
       <workItem from="1521227427571" duration="401000" />
       <workItem from="1521229745709" duration="1794000" />
       <workItem from="1521753369604" duration="1138000" />
+      <workItem from="1523632284406" duration="237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79044000" />
+    <option name="totallyTimeSpent" value="79281000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="77" width="1440" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18097281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18311875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5024665" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15657894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15657894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -23470,30 +23177,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-          <folding>
-            <marker date="1521651563845" expanded="true" signature="18:197" ph="{...}" />
-            <marker date="1521651563845" expanded="true" signature="98:197" ph="{...}" />
-            <marker date="1521651563845" expanded="true" signature="113:197" ph="{...}" />
-            <marker date="1521651563845" expanded="true" signature="187:197" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss" />
     <entry file="file://$PROJECT_DIR$/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521756282221" expanded="true" signature="51:53" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -23505,29 +23198,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/workStepsSection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="196" column="34" lean-forward="false" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/workStepsSection.html" />
+    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss" />
     <entry file="file://$PROJECT_DIR$/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <marker date="1521756282221" expanded="true" signature="51:53" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -23539,14 +23216,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/workStepsSection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="196" column="34" lean-forward="false" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/workStepsSection.html" />
     <entry file="file://$PROJECT_DIR$/src/sass/base/_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -23554,14 +23224,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss" />
     <entry file="file://$PROJECT_DIR$/src/sass/modules/_firstSection.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -23580,9 +23243,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <marker date="1521756282221" expanded="true" signature="51:53" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -23681,13 +23342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/mapSection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="442" lean-forward="false" selection-start-line="3" selection-start-column="442" selection-end-line="3" selection-end-column="442" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mapSection.html" />
     <entry file="file://$PROJECT_DIR$/src/js/wow.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -23695,20 +23350,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/formSection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modules/_mapSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/formSection.html" />
+    <entry file="file://$PROJECT_DIR$/src/sass/modules/_mapSection.scss" />
     <entry file="file://$PROJECT_DIR$/src/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -23723,13 +23366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modules/_formSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/modules/_formSection.scss" />
     <entry file="file://$PROJECT_DIR$/src/sass/layouts/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
@@ -23782,11 +23419,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <marker date="1521756282221" expanded="true" signature="51:53" ph="//..." />
-          </folding>
+        <state relative-caret-position="485">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -23800,13 +23435,8 @@
     <entry file="file://$PROJECT_DIR$/src/sass/modules/_portfolioSection.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-          <folding>
-            <marker date="1521651563845" expanded="true" signature="18:197" ph="{...}" />
-            <marker date="1521651563845" expanded="true" signature="98:197" ph="{...}" />
-            <marker date="1521651563845" expanded="true" signature="113:197" ph="{...}" />
-            <marker date="1521651563845" expanded="true" signature="187:197" ph="{...}" />
-          </folding>
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -23814,30 +23444,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1521650858333" expanded="true" signature="5061:5097" ph="..." />
-            <marker date="1521650858333" expanded="true" signature="5061:5271" ph="..." />
-            <marker date="1521650858333" expanded="true" signature="5061:5282" ph="..." />
-            <marker date="1521650858333" expanded="true" signature="5061:5291" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/workStepsSection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/workStepsSection.html" />
+    <entry file="file://$PROJECT_DIR$/src/sass/modules/_workStepsSection.scss" />
   </component>
 </project>
