@@ -22794,10 +22794,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/src/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/src/registerServiceWorker.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/yarn.lock" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Сопроводительное письмо.doc" afterPath="$PROJECT_DIR$/Сопроводительное письмо.pages" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My_computer/Alexis-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../My_computer/Alexis-master/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My_computer/DZ 31.10.2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../My_computer/DZ 31.10.2017/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.min.css" afterPath="$PROJECT_DIR$/build/css/main.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/base/_fonts.scss" afterPath="$PROJECT_DIR$/src/sass/base/_fonts.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22814,7 +22816,7 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
+            <state relative-caret-position="535">
               <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
@@ -22911,9 +22913,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="123" />
-    <option name="y" value="77" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="3" />
+    <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
   </component>
@@ -23048,15 +23050,15 @@
       <workItem from="1521227427571" duration="401000" />
       <workItem from="1521229745709" duration="1794000" />
       <workItem from="1521753369604" duration="1138000" />
-      <workItem from="1523632284406" duration="2023000" />
+      <workItem from="1523632284406" duration="2478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81067000" />
+    <option name="totallyTimeSpent" value="81522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="1440" height="878" extended-state="6" />
+    <frame x="3" y="22" width="1440" height="878" extended-state="1" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -23382,7 +23384,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="535">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>

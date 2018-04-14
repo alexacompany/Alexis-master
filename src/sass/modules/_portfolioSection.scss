@@ -5,7 +5,7 @@
     max-width: 1170px;
     margin: auto;
     .article {
-      margin-bottom: 60px;
+      margin-bottom: 40px;
       font-size: 36px;
       text-align: center;
       text-transform: uppercase;
@@ -23,15 +23,15 @@
       }
     }
   .sliderWrap {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     .slider {
       .sliderItem {
         margin: 0 15px;
         .containerItem {
           max-width: 265px;
-          margin: auto;
+          margin: 20px auto;
           background-color: #fff;
-          box-shadow: 0 0 20px #c7c7c7;
+          box-shadow: 0 0 15px #c7c7c7;
           .img {
             position: relative;
             transition: .3s;
