@@ -4,7 +4,7 @@
 //= ../vendor/jquery/dist/jquery.js
 
 //каталог блюд
-$(".catalogLink").click(function () {
+$(".catalogLink, .popUpIcon").click(function () {
   $('.catalogContent').slideToggle(400);
 });
 
@@ -42,9 +42,9 @@ $(function(){
 $('#head').removeClass('default');
 $(window).scroll(function(){
   if($(this).scrollTop() > 20) {
-    $('#head').addClass('default').fadeIn('fast');
+    $('#head').addClass('default').fadeIn('slow');
   } else {
-    $('#head').removeClass('default').fadeIn('fast');
+    $('#head').removeClass('default').fadeIn('slow');
   }
 })
 //__________menu toggle

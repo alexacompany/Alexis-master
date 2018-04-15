@@ -176,7 +176,7 @@ img {
   left: 0;
   right: 0;
   z-index: 9999;
-  padding: 15px 0;
+  padding: 15px 15px;
   background: #fff; }
 
 .headSection .wrapper {
@@ -301,8 +301,8 @@ img {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  -moz-appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   padding-left: 15px;
   color: red;
@@ -566,7 +566,7 @@ img {
   padding: 80px 15px 0;
   background: url("../img/bg.png") no-repeat center center;
   background-size: cover;
-  min-height: 820px; }
+  min-height: 880px; }
 
 .firstSection .wrapper {
   max-width: 1170px;
@@ -851,7 +851,13 @@ img {
   margin: 20px auto;
   background-color: #fff;
   -webkit-box-shadow: 0 0 15px #c7c7c7;
-  box-shadow: 0 0 15px #c7c7c7; }
+  box-shadow: 0 0 15px #c7c7c7;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+.portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem:hover {
+  border-bottom: 3px solid red; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .img {
   position: relative;
@@ -867,7 +873,17 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   color: white;
-  opacity: 0; }
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .img .overleyHeart {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .img:before {
   content: '';
@@ -911,11 +927,13 @@ img {
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .img:hover .overley {
   opacity: 1; }
 
+.portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .img:hover .overleyHeart {
+  opacity: 1; }
+
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .title {
-  padding: 20px 0 15px; }
+  padding: 20px 0 15px 20px; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .title .text {
-  text-align: center;
   color: black;
   font-size: 14px;
   text-transform: uppercase; }
@@ -933,7 +951,8 @@ img {
   font-size: 14px;
   color: black;
   margin-left: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: underline; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list {
   list-style: none; }
@@ -948,7 +967,8 @@ img {
   margin-left: 10px; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem a {
-  color: black; }
+  color: black;
+  text-decoration: underline; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem:first-child {
   border-top: 2px solid #f0f0f0;
