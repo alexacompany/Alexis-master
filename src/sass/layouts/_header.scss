@@ -11,7 +11,7 @@
   z-index: 9999;
   padding: 15px 30px 15px 15px;
   background: #fff;
-  
+  box-sizing: border-box;
   .wrapper {
     max-width: 1170px;
     margin: 0 auto;
@@ -277,11 +277,14 @@
       z-index: 1;
       .contentWrap {
         max-width: 1170px;
+        overflow-x: hidden;
+        height: 640px;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         margin: 0 auto;
         padding: 40px 0;
+        overflow: scroll;
         .itemContent {
           width: 225px;
           margin: 0 5px 5px 0;
@@ -329,17 +332,6 @@
       .wrapHead {
         &__nav {
           margin-bottom: 20px;
-          
-          .wrap {
-            .catalog {
-              .catalogLink {
-                
-              }
-            }
-            .menu {
-              
-            }
-          }
         }
         &__Search {
           margin: auto;
@@ -434,7 +426,7 @@
         }
       }
       .catalogContent {
-        top: 315px;
+        top: 300px;
       }
     }
   }
@@ -493,7 +485,7 @@
               }
               .popUp {
                 width: 340px;
-                top: 60px;
+                top: 55px;
                 transform: translateX(-20%);
                 &:before {
                   left: 40px;

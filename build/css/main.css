@@ -177,7 +177,9 @@ img {
   right: 0;
   z-index: 9999;
   padding: 15px 30px 15px 15px;
-  background: #fff; }
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .headSection .wrapper {
   max-width: 1170px;
@@ -492,6 +494,8 @@ img {
 
 .headSection .wrapper .catalogContent .contentWrap {
   max-width: 1170px;
+  overflow-x: hidden;
+  height: 640px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -500,7 +504,8 @@ img {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 40px 0; }
+  padding: 40px 0;
+  overflow: scroll; }
 
 .headSection .wrapper .catalogContent .contentWrap .itemContent {
   width: 225px;
@@ -615,7 +620,7 @@ img {
   .headSection .wrapper .header .wrapHead__Search .btnWrap .btnCook {
     margin-right: 10px; }
   .headSection .wrapper .catalogContent {
-    top: 315px; } }
+    top: 300px; } }
 
 @media screen and (max-width: 480px) {
   .headSection {
@@ -654,7 +659,7 @@ img {
     font-size: 15px; }
   .headSection .wrapper .header .wrapHead__Search .searchWrap .popUp {
     width: 340px;
-    top: 60px;
+    top: 55px;
     -webkit-transform: translateX(-20%);
     transform: translateX(-20%); }
   .headSection .wrapper .header .wrapHead__Search .searchWrap .popUp:before {
