@@ -109,6 +109,9 @@
               color: black;
               font-size: 14px;
               text-transform: uppercase;
+              &:hover {
+                color: red;
+              }
             }
           }
           .subText {
@@ -188,15 +191,55 @@
 @media screen and (max-width: 1024px) {
 .portfolioSection {
   padding: 70px 15px;
+  .wrapper {
+    .sliderWrap {
+      .slider {
+        .slick-prev, .slick-next {
+          display: none;
+        }
+      }
+    }
+  }
 }
 }
 @media screen and (max-width: 768px) {
 .portfolioSection {
   padding: 30px 15px;
+  .wrapper {
+    .sliderWrap {
+      .slider {
+        .slick-prev, .slick-next {
+          display: none;
+        }
+      }
+    }
+  }
 }
 }
 @media screen and (max-width: 480px) {
 .portfolioSection {
   padding: 15px;
+  .wrapper {
+    .sliderWrap {
+      .slider {
+        .slick-prev, .slick-next {
+          display: none;
+        }
+      }
+    }
+  }
 }
 }
+@media screen and (max-width: 320px) {
+  .portfolioSection {
+    .wrapper {
+      .sliderWrap {
+        .slider {
+          .slick-prev, .slick-next {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  }
