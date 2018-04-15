@@ -38,6 +38,15 @@ $(function(){
 	});
 });
 
+//__________menu fix
+$('#head').removeClass('default');
+$(window).scroll(function(){
+  if($(this).scrollTop() > 20) {
+    $('#head').addClass('default').fadeIn('fast');
+  } else {
+    $('#head').removeClass('default').fadeIn('fast');
+  }
+})
 //__________menu toggle
 $(".burger-menu").click(function () {
   $('.wrapHead__nav').slideToggle(700);
