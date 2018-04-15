@@ -293,7 +293,8 @@ img {
 .headSection .wrapper .header .wrapHead__nav .wrap .menu a:hover {
   color: red; }
 
-.headSection .wrapper .header .wrapHead__nav .wrap .menu select {
+.headSection .wrapper .header .wrapHead__nav .wrap .menu .select {
+  position: relative;
   font-size: 14px;
   cursor: pointer;
   text-transform: uppercase;
@@ -310,9 +311,34 @@ img {
   -webkit-transition: all .5s;
   transition: all .5s; }
 
-.headSection .wrapper .header .wrapHead__nav .wrap .menu select::-ms-expand {
+.headSection .wrapper .header .wrapHead__nav .wrap .menu .select::-ms-expand {
   /* для IE */
   display: none; }
+
+.headSection .wrapper .header .wrapHead__nav .wrap .menu .arrow {
+  position: relative; }
+
+.headSection .wrapper .header .wrapHead__nav .wrap .menu .arrow:before {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 1px;
+  top: 50%;
+  right: -12px;
+  background-color: red;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.headSection .wrapper .header .wrapHead__nav .wrap .menu .arrow:after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 1px;
+  top: 50%;
+  right: -16px;
+  background-color: red;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
 
 .headSection .wrapper .header .wrapHead__Search {
   display: -webkit-box;
