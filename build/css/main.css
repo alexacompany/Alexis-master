@@ -936,18 +936,27 @@ img {
     font-size: 30px;
     margin-bottom: 15px;
     line-height: 30px; }
+  .firstSection .wrapper .contentHead .wrapContent .tabs .tab {
+    width: 340px; }
   .firstSection .wrapper .contentHead .wrapContent .tabs .tab .wrapTab .searchMap, .firstSection .wrapper .contentHead .wrapContent .tabs .tab .wrapTab .searchText, .firstSection .wrapper .contentHead .wrapContent .tabs .tab .wrapTab .searchSubmit {
-    width: 320px; } }
+    width: 300px; } }
 
 @media screen and (max-width: 320px) {
   .firstSection .wrapper .contentHead .wrapContent {
-    padding: 15px 0 0 10px;
+    padding: 15px 0;
     margin-bottom: 5px; }
   .firstSection .wrapper .contentHead .wrapContent .titleContent {
+    width: 280px;
     font-size: 26px;
     margin-bottom: 10px;
     line-height: 26px; }
+  .firstSection .wrapper .contentHead .wrapContent .textContent {
+    font-size: 16px; }
+  .firstSection .wrapper .contentHead .wrapContent .tabs .tab {
+    width: 280px; }
   .firstSection .wrapper .contentHead .wrapContent .tabs .tab .wrapTab .searchMap, .firstSection .wrapper .contentHead .wrapContent .tabs .tab .wrapTab .searchText, .firstSection .wrapper .contentHead .wrapContent .tabs .tab .wrapTab .searchSubmit {
+    width: 250px; }
+  .firstSection .wrapper .contentHead .wrapContent .tabs .tab .playVideo {
     width: 280px; } }
 
 .portfolioSection {
@@ -980,7 +989,8 @@ img {
   margin-bottom: 20px; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem {
-  margin: 0 15px; }
+  margin: 0 15px;
+  outline: none; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem {
   max-width: 265px;
@@ -1107,20 +1117,21 @@ img {
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem a {
   color: black;
-  text-decoration: underline; }
+  text-decoration: underline;
+  outline: none; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem:first-child {
   border-top: 2px solid #f0f0f0;
-  background: transparent url("/img/clockIcon.png") left center no-repeat; }
+  background: transparent url("../img/clockIcon.png") left center no-repeat; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem:nth-child(2) {
-  background: transparent url("/img/carIcon.png") left center no-repeat; }
+  background: transparent url("../img/carIcon.png") left center no-repeat; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem:nth-child(3) {
-  background: transparent url("/img/coockIcon.png") left center no-repeat; }
+  background: transparent url("../img/coockIcon.png") left center no-repeat; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem:nth-child(4) {
-  background: transparent url("/img/markerIcon.png") left center no-repeat; }
+  background: transparent url("../img/markerIcon.png") left center no-repeat; }
 
 .portfolioSection .wrapper .sliderWrap .slider .sliderItem .containerItem .list .listItem:last-child {
   padding: 15px 0 30px;
@@ -1151,20 +1162,26 @@ img {
   .portfolioSection {
     padding: 70px 15px; }
   .portfolioSection .wrapper .sliderWrap .slider .slick-prev, .portfolioSection .wrapper .sliderWrap .slider .slick-next {
-    display: none; } }
+    position: static;
+    margin-left: -300px; } }
 
 @media screen and (max-width: 768px) {
   .portfolioSection {
     padding: 30px 15px; }
   .portfolioSection .wrapper .sliderWrap .slider .slick-prev, .portfolioSection .wrapper .sliderWrap .slider .slick-next {
-    display: none; } }
+    position: static;
+    margin-left: -300px; } }
 
 @media screen and (max-width: 480px) {
   .portfolioSection {
     padding: 15px; }
+  .portfolioSection .wrapper .article {
+    font-size: 26px; }
   .portfolioSection .wrapper .sliderWrap .slider .slick-prev, .portfolioSection .wrapper .sliderWrap .slider .slick-next {
-    display: none; } }
+    position: static;
+    margin-left: -300px; } }
 
 @media screen and (max-width: 320px) {
   .portfolioSection .wrapper .sliderWrap .slider .slick-prev, .portfolioSection .wrapper .sliderWrap .slider .slick-next {
-    display: none; } }
+    position: static;
+    margin-left: -300px; } }

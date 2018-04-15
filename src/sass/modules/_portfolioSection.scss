@@ -27,6 +27,7 @@
     .slider {
       .sliderItem {
         margin: 0 15px;
+        outline: none;
         .containerItem {
           max-width: 265px;
           margin: 20px auto;
@@ -141,19 +142,20 @@
               & a {
                 color: black;
                 text-decoration: underline;
+                outline: none;
               }
               &:first-child {
                 border-top: 2px solid #f0f0f0;
-                background: transparent url('/img/clockIcon.png') left center no-repeat;
+                background: transparent url('../img/clockIcon.png') left center no-repeat;
               }
               &:nth-child(2) {
-                background: transparent url('/img/carIcon.png') left center no-repeat;
+                background: transparent url('../img/carIcon.png') left center no-repeat;
               }
               &:nth-child(3) {
-                background: transparent url('/img/coockIcon.png') left center no-repeat;
+                background: transparent url('../img/coockIcon.png') left center no-repeat;
               }
               &:nth-child(4) {
-                background: transparent url('/img/markerIcon.png') left center no-repeat;
+                background: transparent url('../img/markerIcon.png') left center no-repeat;
               }
               &:last-child {
                 padding: 15px 0 30px;
@@ -195,7 +197,8 @@
     .sliderWrap {
       .slider {
         .slick-prev, .slick-next {
-          display: none;
+          position: static;
+          margin-left: -300px;
         }
       }
     }
@@ -209,7 +212,8 @@
     .sliderWrap {
       .slider {
         .slick-prev, .slick-next {
-          display: none;
+          position: static;
+          margin-left: -300px;
         }
       }
     }
@@ -220,10 +224,14 @@
 .portfolioSection {
   padding: 15px;
   .wrapper {
+    .article {
+      font-size: 26px;
+    }
     .sliderWrap {
       .slider {
         .slick-prev, .slick-next {
-          display: none;
+          position: static;
+          margin-left: -300px;
         }
       }
     }
@@ -236,7 +244,8 @@
       .sliderWrap {
         .slider {
           .slick-prev, .slick-next {
-            display: none;
+            position: static;
+            margin-left: -300px;
           }
         }
       }

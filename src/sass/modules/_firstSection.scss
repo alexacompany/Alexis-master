@@ -228,9 +228,10 @@
           }
           .tabs {
             .tab {
+              width: 340px;
               .wrapTab {
                 .searchMap, .searchText, .searchSubmit {
-                  width: 320px;
+                  width: 300px;
                 }
               }
             }
@@ -245,19 +246,27 @@
     .wrapper {
       .contentHead {
         .wrapContent {
-          padding: 15px 0 0 10px;
+          padding: 15px 0;
           margin-bottom: 5px;
           .titleContent {
+            width: 280px;
             font-size: 26px;
             margin-bottom: 10px;
             line-height: 26px;
           }
+          .textContent {
+            font-size: 16px;
+          }
           .tabs {
             .tab {
+              width: 280px;
               .wrapTab {
                 .searchMap, .searchText, .searchSubmit {
-                  width: 280px;
+                  width: 250px;
                 }
+              }
+              .playVideo {
+                width: 280px;
               }
             }
           }
