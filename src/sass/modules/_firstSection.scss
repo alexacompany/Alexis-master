@@ -163,11 +163,14 @@
   /* Media Queries */
 @media screen and (max-width: 1024px) {
 .firstSection {
-  padding: 100px 15px 0;
+  padding: 60px 15px 0;
   .wrapper {
     .contentHead {
       .wrapContent {
-        padding: 50px 0 0 30px;
+        .titleContent {
+          font-size: 50px;
+          line-height: 50px;
+        }
       }
     }
   }
@@ -175,20 +178,17 @@
 }
 @media screen and (max-width: 768px) {
   .firstSection {
-    padding: 130px 15px 0;
     .wrapper {
       .contentHead {
         .wrapContent {
-          padding: 15px 0 0 30px;
+          //padding: 15px 0 0 30px;
           margin-bottom: 30px;
           .titleContent {
             font-size: 40px;
             line-height: 40px;
           }
-          .listContent {
-            .itemList {
-              font-size: 22px;
-            }
+          .textContent {
+            font-size: 20px;
           }
         }
       }
@@ -197,15 +197,32 @@
 }
 @media screen and (max-width: 640px) {
   .firstSection {
+    padding: 40px 15px 0;
     .wrapper {
       .contentHead {
         .wrapContent {
           .titleContent {
-            width: 500px;
+            max-width: 500px;
             font-size: 34px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             line-height: 34px;
             text-align: center;
+          }
+          .textContent {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 530px) {
+  .firstSection {
+    .wrapper {
+      .contentHead {
+        .wrapContent {
+          .titleContent {
+            width: 350px;
           }
         }
       }
@@ -214,17 +231,18 @@
 }
 @media screen and (max-width: 480px) {
   .firstSection {
-    padding: 180px 15px 0;
+    padding: 40px 15px 0;
     .wrapper {
       .contentHead {
         .wrapContent {
-          padding: 15px 0;
-          margin-bottom: 10px;
           .titleContent {
             width: 300px;
             font-size: 30px;
             margin-bottom: 15px;
             line-height: 30px;
+          }
+          .textContent {
+            font-size: 16px;
           }
           .tabs {
             .tab {
@@ -232,6 +250,36 @@
               .wrapTab {
                 .searchMap, .searchText, .searchSubmit {
                   width: 300px;
+                }
+              }
+            }
+          }
+          .tabs label {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .firstSection {
+    .wrapper {
+      .contentHead {
+        .wrapContent {
+          .titleContent {
+            font-size: 26px;
+            line-height: 26px;
+          }
+          .textContent {
+            font-size: 14px;
+          }
+          .tabs {
+            .tab {
+              width: 300px;
+              .wrapTab {
+                .searchMap, .searchText, .searchSubmit {
+                  width: 270px;
                 }
               }
             }
@@ -246,16 +294,10 @@
     .wrapper {
       .contentHead {
         .wrapContent {
-          padding: 15px 0;
-          margin-bottom: 5px;
           .titleContent {
             width: 280px;
-            font-size: 26px;
-            margin-bottom: 10px;
-            line-height: 26px;
-          }
-          .textContent {
-            font-size: 16px;
+            font-size: 24px;
+            line-height: 24px;
           }
           .tabs {
             .tab {

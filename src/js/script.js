@@ -52,13 +52,7 @@ $(".burger-menu").click(function () {
   $('.wrapHead__nav').slideToggle(700);
   });
 $(window).resize(function() {
-  if ($(window).width() > 768) {
+  if ($(window).width() > 1200) {
     $('.wrapHead__nav').removeAttr('style');
   }
-});
-
-//_________price more
-$(".moreBtn").click(function () {
-    $('.display').slideToggle(700);
-    $(this).css("visibility", "hidden");
 });
