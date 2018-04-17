@@ -22796,6 +22796,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../js/yarn.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My_computer/Alexis-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../My_computer/Alexis-master/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My_computer/DZ 31.10.2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../My_computer/DZ 31.10.2017/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23057,12 +23058,12 @@
       <workItem from="1521227427571" duration="401000" />
       <workItem from="1521229745709" duration="1794000" />
       <workItem from="1521753369604" duration="1138000" />
-      <workItem from="1523632284406" duration="5478000" />
+      <workItem from="1523632284406" duration="6097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84522000" />
+    <option name="totallyTimeSpent" value="85141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1440" height="878" extended-state="0" />
